@@ -1,0 +1,55 @@
+.chartSubtitle{
+    padding-left: 20px;
+}
+
+.subSat{
+   padding-right: 5px;
+   position: relative;
+   top:8px;
+}
+
+.subMax{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.subTot{
+    color: gray;
+}
+
+.legendWrapper{
+    padding-left: 20px;
+}
+
+.legendLabels{
+    font-size: 12px;
+    padding-right: 24px;
+    position: relative;
+    top:-5px;
+}
+
+.legend{
+    display: inline;
+}
+
+canvas{
+   width: 85% !important;
+   padding-left: 0px !important;
+}
+
+.yAxisWrapper, #satisfactionChart{
+    display: inline-block !important;
+    vertical-align: top !important;
+    padding-left: 20px;
+
+}
+
+.yAxisWrapper{
+    position: relative;
+    top: 24px;
+}
+
+.maxEmoji{
+    height:10px;
+    width: 10px;
+}

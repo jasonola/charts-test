@@ -1,0 +1,46 @@
+.chartSubtitle{
+    padding-left: 20px;
+}
+
+.subSat{
+   padding-right: 10px;
+}
+
+.subMax{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.subTot{
+    color: gray;
+}
+
+.legendWrapper{
+    padding-left: 20px;
+}
+
+.legendLabels{
+    font-size: 12px;
+    padding-right: 24px;
+    position: relative;
+    top:-5px;
+}
+
+.legend{
+    display: inline;
+}
+
+canvas{
+    height: auto !important;
+}
+
+.trend{
+    border: 1px solid red;
+    margin: 14px;
+    border-radius: 50px;
+    font-size: 12px;
+    color: red;
+    padding: 2px 5px 2px 5px;
+    position: relative;
+    top:-8px;
+}

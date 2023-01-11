@@ -1,0 +1,23 @@
+<div class="divChart">
+<h3 class="chartTitle">Number of active students</h3>
+    <div class="chartSubtitle">
+        <span class="subMax">{{numActiveStudentsToday}}</span>
+        <span class="subTot">/{{maxStudent}}</span>
+        <span class="trend">
+            <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.8835 8.00019V7.00019H12.0002L7.9835 2.98353L5.20016 5.76686L0.333496 0.916862L1.05016 0.200195L5.1835 4.33353L7.96683 1.55019L12.6835 6.26686V4.21686H13.6668V8.00019H9.8835Z" fill="#F44336"/>
+            </svg>  
+            {{trend}}%
+        </span>    
+    </div>
+    <canvas id="activeStudentChart"></canvas>
+    <div class="legendWrapper">
+        <div class="legend" *ngFor="let color of colors; index as i">
+            <svg height="25" width="25">
+                <circle cx="15" cy="15" r="5" [style.stroke]="color" [style.fill]="color" />
+            </svg>
+            <span class="legendLabels">{{labels[i]}}</span>
+        </div>
+    </div>
+</div>
+   

@@ -1,0 +1,21 @@
+.table-responsive {
+    overflow-x: auto;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.mat-header-row{
+    background-color: #DEE0E3;
+    height: 40px;
+}
+
+tr.mat-row{
+    border: 1px solid #DEE0E3;
+}
+
+.table-container{
+    width:300px;
+}

@@ -1,0 +1,23 @@
+<div class="divChart">
+    <h3 class="chartTitle">Satisfaction Rating</h3>
+    <div class="chartSubtitle">
+        <span class="subSat"></span>
+        <span class="subMax">{{subMax}}</span>
+        <span class="subTot">/{{subTot}}</span>
+    </div>
+    <div class="chartWrapper">
+        <div class="yAxisWrapper"></div>
+        <canvas id="satisfactionChart"></canvas>
+    </div>
+    <div class="legendWrapper">
+        <div class="legend" *ngFor="let color of colors; index as i">
+            <svg height="25" width="25">
+                <circle cx="15" cy="15" r="5" [style.stroke]="color" [style.fill]="color" />
+              </svg>
+            <span class="legendLabels">{{labels[i]}}</span>
+        </div>
+    </div>
+   
+</div>
+
+    
